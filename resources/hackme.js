@@ -1,4 +1,6 @@
-
+/**
+ * @register {->void}
+ */
 function installMe() {
   var req = navigator.mozApps.install(document.location.protocol + '//' +
                                       document.location.host + '/' +
